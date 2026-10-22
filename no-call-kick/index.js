@@ -3,7 +3,7 @@ const { instead } = vendetta.patcher;
 
 const unpatches = [];
 
-export default {
+module.exports = {
   onLoad() {
     const timerMod = findByProps("startIdleTimer", "clearIdleTimer");
     if (timerMod?.startIdleTimer) {
@@ -38,4 +38,4 @@ export default {
     unpatches.forEach(fn => fn?.());
     unpatches.length = 0;
   }
-}; 
+};
