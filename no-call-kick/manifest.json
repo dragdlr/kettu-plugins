@@ -1,0 +1,7 @@
+{
+  "id": "no-call-kick",
+  "name": "No Call Kick",
+  "description": "Prevents Discord from disconnecting you from voice calls after inactivity",
+  "authors": [{ "name": "1c5a", "id": "1469782931827327181" }],
+  "main": "index.js"
+}
